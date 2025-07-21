@@ -24,7 +24,14 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://marktruong.com"
+    - Learn Javascript: "https://eloquentjavascript.net"
+    - Learn Python: "https://ia902303.us.archive.org/2/items/PythonForDataAnalysis_201901/Python%20for%20Kids_%20A%20Playful%20Introduction%20to%20Programming%20%5BBriggs%202012-12-22%5D.pdf"
+    - Learn Java (Intermediate): "https://runestone.academy/ns/books/published/javajavajava/book-1.html"
+    - Learn Java (Beginner): "https://www.amazon.com/Starting-Out-Java-Structures-Computer/dp/0134802217"
+    - Learn Operating Systems: "https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum-ebook/dp/B09ZHR7NRK/ref=tmm_kin_swatch_0"
+    - Learn Interpreters (Advanced Programming Languages): "https://ruslanspivak.com/lsbasi-part1/"
+    - Learning Unity: "https://www.amazon.com/Introduction-Game-Design-Prototyping-Development/dp/0136619940"
+  # Author's home: "https://marktruong.com"
 
 ################
 # --- Logo --- #
