@@ -37,15 +37,11 @@ The interpreter follows the classical multi-phase compiler pipeline:
 * Contextual error messages include full call stack traces for runtime errors.
 * The parser employs recovery mechanisms to continue processing after errors, improving user feedback.
 
-⸻
-
 Design Patterns & Software Engineering Excellence
 * The Visitor Pattern cleanly separates AST traversal logic, allowing easy extension for new node types or language features.
 * The recursive descent parser reflects a deep understanding of parsing theory, including operator precedence, associativity, and look-ahead tokens to resolve ambiguities.
 * Modular code structure ensures single responsibility for classes — lexer, parser, interpreter — facilitating maintainability and testing.
 * Comprehensive documentation and formal grammar specifications accompany the codebase, reflecting production-quality standards.
-
-⸻
 
 Academic Concepts Applied
 
