@@ -5,7 +5,26 @@ subtitle: Portfolio Project Analysis and Reflection
 cover-img: /assets/img/path5.jpg
 thumbnail-img: /assets/img/thumb7.jpg
 share-img: /assets/img/path5.jpg
-tags: [civit.ai, comfyui, fluxgym, generativeai, stable diffusion]
+tags: [python,
+  compiler-design,
+  interpreter,
+  parsing,
+  abstract-syntax-tree,
+  visitor-pattern,
+  recursive-descent,
+  programming-languages,
+  language-design,
+  portfolio-project,
+  software-engineering,
+  error-handling,
+  advanced-programming,
+  cs-theory,
+  sdsu,
+  dynamic-typing,
+  control-flow,
+  type-system,
+  symbol-table,
+  code-quality]
 author: Mark Truong
 ---
 
