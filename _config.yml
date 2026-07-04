@@ -19,19 +19,22 @@ author: Mark Truong
 # --- List of links in the navigation bar --- #
 ###############################################
 
+url: "https://marktruong.dev"
+baseurl: ""
+
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-    - Learn Javascript: "https://eloquentjavascript.net"
-    - Learn Python: "https://ia902303.us.archive.org/2/items/PythonForDataAnalysis_201901/Python%20for%20Kids_%20A%20Playful%20Introduction%20to%20Programming%20%5BBriggs%202012-12-22%5D.pdf"
-    - Learn Java (Intermediate): "https://runestone.academy/ns/books/published/javajavajava/book-1.html"
-    - Learn Java (Beginner): "https://www.amazon.com/Starting-Out-Java-Structures-Computer/dp/0134802217"
-    - Learn Operating Systems: "https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum-ebook/dp/B09ZHR7NRK/ref=tmm_kin_swatch_0"
-    - Learn Interpreters (Advanced Programming Languages): "https://ruslanspivak.com/lsbasi-part1/"
-    - Learning Unity: "https://www.amazon.com/Introduction-Game-Design-Prototyping-Development/dp/0136619940"
-  # Author's home: "https://marktruong.com"
+  # Resources:
+  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #   - Learn markdown: "https://www.markdowntutorial.com/"
+  #   - Learn Javascript: "https://eloquentjavascript.net"
+  #   - Learn Python: "https://ia902303.us.archive.org/2/items/PythonForDataAnalysis_201901/Python%20for%20Kids_%20A%20Playful%20Introduction%20to%20Programming%20%5BBriggs%202012-12-22%5D.pdf"
+  #   - Learn Java (Intermediate): "https://runestone.academy/ns/books/published/javajavajava/book-1.html"
+  #   - Learn Java (Beginner): "https://www.amazon.com/Starting-Out-Java-Structures-Computer/dp/0134802217"
+  #   - Learn Operating Systems: "https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum-ebook/dp/B09ZHR7NRK/ref=tmm_kin_swatch_0"
+  #   - Learn Interpreters (Advanced Programming Languages): "https://ruslanspivak.com/lsbasi-part1/"
+  #   - Learning Unity: "https://www.amazon.com/Introduction-Game-Design-Prototyping-Development/dp/0136619940"
+  Author's home: "https://marktruong.dev"
 
 ################
 # --- Logo --- #
@@ -48,7 +51,6 @@ round-avatar: true
 # then specify the following parameter
 #title-img: /path/to/image
 
-
 #####################################
 # --- Footer social media links --- #
 #####################################
@@ -58,16 +60,16 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "marktruongcs@gmail.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  rss: true # remove this line if you don't want to show an RSS link at the bottom
   # facebook: deanattali
   github: tmarktg
-  linkedin: mark-truong01
+  # linkedin: mark-truong01
   # patreon: DeanAttali
   # youtube: "@daattali"
   # whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
- 
+
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -93,7 +95,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-# rss-description: This website is a virtual proof that I'm awesome
+rss-description: "Software engineering, projects, and lessons learned from Mark Truong"
 
 ###########################
 # --- General options --- #
@@ -103,7 +105,7 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: true
-  linkedin: true
+  # linkedin: true
   vk: false
   reddit: false
 
@@ -267,7 +269,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "America/Los_Angeles"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -278,16 +280,14 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
+  - scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
