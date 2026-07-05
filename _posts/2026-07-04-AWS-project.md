@@ -2,9 +2,9 @@
 layout: post
 title: Six Stocks, Zero Servers
 subtitle: What a Project Taught Me About Serverless
-cover-img: /assets/img/path6.jpg
-thumbnail-img: /assets/img/thumb8.png
-share-img: /assets/img/path3.jpg
+cover-img: /assets/img/aws-project-cover.jpg
+thumbnail-img: /assets/img/aws-project-thumb.png
+share-img: /assets/img/aws-project-share.jpg
 tags:
   [
     aws,

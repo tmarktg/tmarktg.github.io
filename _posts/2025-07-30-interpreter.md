@@ -2,9 +2,9 @@
 layout: post
 title: A Deep Dive into Language Implementation
 subtitle: Portfolio Project Analysis and Reflection
-cover-img: /assets/img/path5.jpg
-thumbnail-img: /assets/img/thumb7.jpg
-share-img: /assets/img/path5.jpg
+cover-img: /assets/img/interpreter-cover.jpg
+thumbnail-img: /assets/img/interpreter-thumb.jpg
+share-img: /assets/img/interpreter-cover.jpg
 tags: [python,
   compiler-design,
   interpreter,
