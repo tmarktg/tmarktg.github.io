@@ -4,7 +4,7 @@ title: The Hunt for DevOps Arc, Part 3 - The Cleared Defense Roadmap
 subtitle: Claude's Month-by-Month Plan for Landing a Cleared DevSecOps Role
 cover-img: /assets/img/hunt-for-devops-cleared-roadmap-cover.jpg
 thumbnail-img: /assets/img/hunt-for-devops-cleared-roadmap-thumb.webp
-share-img: /assets/img/hunt-for-devops-research-determined.webp
+share-img: /assets/img/hunt-for-devops-cleared-roadmap-cover.jpg
 tags:
   [
     devops,
