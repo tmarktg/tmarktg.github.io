@@ -42,7 +42,7 @@ Also, make sure you use AI correctly, as it is a very powerful asset. I use AI t
 
 ## The SDSU AI Club Project (Where It Went Wrong)
 
-Back to the AI project I did at the SDSU AI club, now it was a nightmare. I went on a tutorial project hell, created a script in python that broke because it rested on the beautiful soup web scraper that pulls on the old reddit site which allows web scraping. I used two different hugging face models, which I didn't even know how they connected, and I didn't know how to build the site where you would have the app, nor use the OpenAI API endpoint to create a captioned image.
+Back to the AI project I did at the SDSU AI club, how it was a nightmare. I went on a tutorial project hell, created a script in python that broke because it rested on the beautiful soup web scraper that pulls on the old reddit site which allows web scraping. I used two different hugging face models, which I didn't even know how they connected, and I didn't know how to build the site where you would have the app, nor use the OpenAI API endpoint to create a captioned image.
 
 When I crushed that project with claude code, what I learned is that I should've used the unsplash api to pull images, have the openai api to write the caption into the image, and use the two huggingface models, one as a backup to use object detection to pass off the image to the LLM reading the image.
 
