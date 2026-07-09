@@ -12,13 +12,3 @@ Gemfile.lock
 
 beautiful-jekyll-theme-*.gem
 
-# posts pending human review (HITL) before publishing
-_posts/2026-07-04-AWS-project.md
-_posts/2026-07-05-pipeline-is-the-product.md
-_posts/2026-07-07-ato-in-a-pipeline.md
-_posts/2026-07-07-portcheck.md
-assets/img/ato-in-a-pipeline-architecture.svg
-assets/img/aws-project-cover.jpg
-assets/img/aws-project-share.jpg
-assets/img/aws-project-thumb.png
-assets/img/portcheck-review-queue.png
