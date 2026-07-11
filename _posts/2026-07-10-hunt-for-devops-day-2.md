@@ -54,6 +54,11 @@ These things are fundamental, when we get into deeper devops practices, there wi
 
 So let's end it off here, but essentially, I followed this video, and created a db: [https://www.youtube.com/watch?v=qw--VYLpxG4&t=2025s](https://www.youtube.com/watch?v=qw--VYLpxG4&t=2025s)
 
+I also created a postgresql structure from the video:
+
+![caption_history table structure: id, image_key, caption, tag,
+ created_at](/assets/img/hunt-for-devops-day-2-db-structure.png)
+
 I plan to just use this tutorial to get the basics, create the db, connect to the db, create the table, create the row structure, and I'm good to go. Don't get caught in the trap of oh I need to finish this tutorial, because you really don't.
 
 Unless you need EVERYTHING in the tutorial, which wow that's crazy, don't watch the entire thing for completions sake… I have OCD so I fell into that trap.
