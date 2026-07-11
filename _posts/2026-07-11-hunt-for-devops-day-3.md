@@ -109,3 +109,5 @@ The idea here is as a software engineer, you really gotta dive deep, find videos
 You know what, I think I'm getting lost in the sauce, this isn't exactly DevOps work, so I'm going to get the app to have PostgreSQL and get to the DevOps work. Maybe I'll have it use Postgres.app, and try and convert it into Docker myself, and learn what containerize means.
 
 Also, the MinIO S3 bucket is probably on the table along with the Redis cache, but the idea here is to keep motivation high and be able to explain what I'm building.
+
+![Prisoner reaching through the bars of a stone cell](/assets/img/hunt-for-devops-day-3-prisoner.jpg)
