@@ -34,7 +34,7 @@ This app takes in an image or pulls from the unsplash api to write a caption of 
 
 The idea is to use a Postgres db to store the captions themselves, the structure of the db will be caption history, timestamp, user supplied tag, this will have an image key and an ID.
 
-Also, I want to have MINIO, an s3 bucket act as an object store to hold all the images and redid as a cache / queue, we will be learning what that means later.
+Also, I want to have MINIO, an s3 bucket act as an object store to hold all the images and redis as a cache / queue, we will be learning what that means later.
 
 ## Fighting Through the Postgres Setup
 
