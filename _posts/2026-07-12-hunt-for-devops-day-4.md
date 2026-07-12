@@ -104,13 +104,13 @@ Redis is an in-memory key-value data store, being less durable than a database l
 
 In-memory means keeping everything in RAM instead of disk, so read write is really quick.
 
+This is an Operating Systems fundamental in the Computer Science degree btw.
+
 Being durable means that when a write is successful, it's guaranteed to survive a crash like a corrupted memory.
 
 Key-value?? HASHMAPPP.
 
 ![HashMap structure diagram showing indices pointing to buckets of key/value/next nodes, with chained nodes linked together](/assets/img/hunt-for-devops-day-4-hashmap.jpg)
-
-These are Operating Systems fundamentals in the Computer Science degree btw.
 
 In this app, Redis plays two distinct roles, both in backend:
 
