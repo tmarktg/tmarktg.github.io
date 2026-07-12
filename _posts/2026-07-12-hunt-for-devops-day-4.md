@@ -136,6 +136,8 @@ Avoids redundant ML inference, which means: have I seen this image before? If ye
 
 Keyed by the image's SHA-256 hash: `caption_cache:{image_key}` → `{raw_caption, objects}`, with a 24-hour TTL (`SETEX`).
 
+![Diagram showing SHA-256 turning plain text like MyPassword123 into a fixed-length hash output through a hashing step](/assets/img/hunt-for-devops-day-4-sha256.png)
+
 Why use a sha-256? Because we need a way to say have we seen this image before, and if you compare image file names, check out the numerous ways you can name an image, it's not consistent lol.
 
 Also we get the same sha-256 on a reuploaded image because it is a deterministic input of bytes. Given the exact same sequence of bytes, it always produces the exact same output.
