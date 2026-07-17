@@ -52,7 +52,9 @@ Anyways, in my project, the stocks serverless pipeline, I used Terraform, Amazon
 
 ![Diagram of serverless computing showing a cloud connected to code, containers, storage, APIs, and documents](/assets/img/hunt-for-devops-day-6-serverless.webp)
 
-First of all let's understand what serverless is. Serverless is the idea that you can set up a cloud instance without needing to go into getting some system administrators, setting up the networking, rather you can spin up and destroy instances of cloud services such as a lambda. Most business owners would rather pay AWS to spin up instances with the networking, security, and all the infrasturcture for convenience and sometimes cost.
+First of all let's understand what serverless is. Serverless is the idea that you can set up a cloud instance without needing to go into getting some system administrators, setting up the networking, rather you can spin up and destroy instances of cloud services such as a lambda. Most business owners would rather pay AWS to spin up instances with the networking, security, and all the infrastructure for convenience and sometimes cost.
+
+There is a much larger implication to this such as how they used to have servers be mutable long-lived instances of a physical server versus a cloud with a immutable short-lived instance of a server that can be spinned up and destroyed for example a website during a black friday sale where there is higher amounts of traffic on the site to handle the load.
 
 ### Amazon EventBridge
 
