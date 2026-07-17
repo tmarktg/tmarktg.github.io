@@ -2,9 +2,9 @@
 layout: post
 title: Hunt for DevOps Roles, Day 5 - Containers, VMs, and Wiring Up GitHub Actions
 subtitle: Planning a Multi-Service App With Docker Compose and CI/CD (Kubernetes Can Wait)
-cover-img: /assets/img/hunt-for-devops-day-5-cover.jpg
-thumbnail-img: /assets/img/hunt-for-devops-day-5-thumb.jpg
-share-img: /assets/img/hunt-for-devops-day-5-cover.jpg
+cover-img: /assets/img/hunt-for-devops-day-5-thumb.jpg
+thumbnail-img: /assets/img/hunt-for-devops-day-5-cover.jpg
+share-img: /assets/img/hunt-for-devops-day-5-thumb.jpg
 tags:
   [
     devops,
