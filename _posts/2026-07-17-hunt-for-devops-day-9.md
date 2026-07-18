@@ -169,4 +169,4 @@ I really love this format where I explain low level stuff, so we can understand 
 
 As you saw in the beginning, I was almost sucked into extremely low level understanding of networking, but I don't really understand pure definitions, nor do I want to spout out a pure definition in interviews or the workplace like chatgpt.
 
-I'd rather understand things as a story, as I understand what serverless is, and as I understand HTTP and TCP / IP is.
+I'd rather understand things as a story, as I understand what serverless is, and now as I understand what HTTP and TCP / IP is.
