@@ -48,7 +48,7 @@ What is a Dockerfile?
 It is a text file that serves as a blueprint for building a docker image
 
 What is a docker image?
-Images are read-only binary templates used to build containers that can run an application consistently across different applications.
+Images are read-only binary templates used to build containers that can run an application consistently across different environments.
 
 It is a software binary which is a compiled, ready-to-run file, where docker image acts as a standardized immutable package.
 
@@ -116,7 +116,7 @@ Volumes for persistence, for example, the db_data, minio_data, and redis_data ar
 
 This means the hf_cache makes it a one-time load per docker host for the large model weights.
 
-## What is a docker volume?
+## What Is a Docker Volume?
 
 ![Diagram of a Docker Volume being shared with multiple containers via file sharing](/assets/img/hunt-for-devops-day-8-docker-volume.webp)
 
